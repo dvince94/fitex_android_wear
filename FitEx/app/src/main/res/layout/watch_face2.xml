@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="46dp"
+        android:layout_height="39dp"
+        android:id="@+id/imageButton"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:src="@android:drawable/sym_action_email" />
+
+    <TextClock
+        android:layout_width="91dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:id="@+id/textClock"
+        android:layout_row="0"
+        android:layout_column="4"
+        android:layout_columnSpan="3" />
+
+    <ImageButton
+        android:layout_width="46dp"
+        android:layout_height="39dp"
+        android:id="@+id/imageButton2"
+        android:layout_row="0"
+        android:layout_column="7"
+        android:src="@android:drawable/sym_action_email" />
+
+    <TextView
+        android:layout_width="41dp"
+        android:layout_height="84dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="10 cups to go"
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:layout_row="4"
+        android:layout_column="7" />
+
+    <ImageButton
+        android:layout_width="46dp"
+        android:layout_height="39dp"
+        android:id="@+id/imageButton4"
+        android:layout_row="8"
+        android:layout_column="0"
+        android:src="@android:drawable/sym_action_email" />
+
+    <ImageButton
+        android:layout_width="46dp"
+        android:layout_height="39dp"
+        android:id="@+id/imageButton3"
+        android:layout_row="8"
+        android:layout_column="7"
+        android:src="@android:drawable/sym_action_email" />
+
+    <TextView
+        android:layout_width="41dp"
+        android:layout_height="84dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="5000 steps to go"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_row="4"
+        android:layout_column="0" />
+
+    <ProgressBar
+        android:id="@+id/progressWheel"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:layout_row="4"
+        android:layout_column="4"
+        android:progress="100"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/circular_bar" />
+
+</GridLayout>
