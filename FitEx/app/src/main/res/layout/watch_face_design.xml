@@ -22,14 +22,16 @@
             android:layout_gravity="bottom|left"
             android:layout_height="50dp"
             android:layout_width="50dp"
-            android:src="@color/background2" />
+            android:src="@color/background2"
+            android:id="@+id/teamBut" />
 
         <ImageButton
             android:background="@null"
             android:layout_gravity="bottom|right"
             android:layout_height="50dp"
             android:layout_width="50dp"
-            android:src="@color/background2" />
+            android:src="@color/background2"
+            android:id="@+id/activityBut" />
 
         <ImageButton
             android:background="@null"
@@ -37,7 +39,7 @@
             android:layout_height="50dp"
             android:layout_width="50dp"
             android:src="@color/background2"
-            android:id="@+id/imageButton5" />
+            android:id="@+id/rankBut" />
 
         <ImageButton
             android:background="@null"
@@ -45,7 +47,7 @@
             android:layout_height="50dp"
             android:layout_width="50dp"
             android:src="@android:drawable/ic_dialog_email"
-            android:id="@+id/imageButton6" />
+            android:id="@+id/messagesBut" />
 
         <ProgressBar
             android:id="@+id/progressWheel"
